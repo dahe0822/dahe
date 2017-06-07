@@ -1,0 +1,250 @@
+
+
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.main-image {
+    /* The image used */
+   // background-color: wheat;
+    background: linear-gradient( to bottom, lightpink, powderblue );
+    /* Set a specific height */
+    height: 100%;
+    //background-image: url(../img/header.jpg);
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.75;
+}
+
+/* Place text in the middle of the image */
+.main-text {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px grey;
+    
+}
+
+
+#name{
+        animation: 2s ease-out 0s 1 slideInFromTop-name;
+
+    font: 8em "Indie Flower";
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 4em;
+    letter-spacing: 15px;
+ //   opacity: 0.65;
+  }
+
+
+  
+
+.vertical-line-name {
+    animation: 2s ease-out 0s 1 slideInFromTop-name;
+    
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    height: 300px;
+    width: 1px;
+    border-left: 1px solid black; 
+}
+
+
+.main-menu {
+    font: 1.4em "Indie Flower";
+}
+
+
+#about-me {
+    animation: 1s ease-out 0s 1 slideInFromTop-about-me;
+
+    background-color: black;
+    color: white;
+    padding: 5px;
+    letter-spacing: 5px;
+    -webkit-transition: -webkit-transform 2s;    
+    transition: transform 2s;
+    -webkit-transform:rotate(10deg);
+    transform:rotate(10deg);
+}
+
+.main-menu-about-me {
+    text-align: center;
+    position: absolute;
+    left: 16%;
+    //transform: translate(-10%, -10%);
+    color: white;
+    //text-shadow: 2px 2px #ff0000;
+}
+
+.vertical-line-about-me {
+    animation: 1s ease-out 0s 1 slideInFromTop-about-me;
+    
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    height: 130px;
+    width: 1px;
+    border-left: 1px solid black; 
+}
+
+
+.main-menu-project {
+    text-align: center;
+    position: absolute;
+    left: 27%;
+    //transform: translate(-10%, -10%);
+    color: white;
+    //text-shadow: 2px 2px #ff0000;
+}
+
+#project {
+    animation: 1s ease-out 0s 1 slideInFromTop-project;
+
+    background-color: black;
+    color: white;
+    padding: 5px;
+    letter-spacing: 5px;
+    -webkit-transition: -webkit-transform 2s;    
+    transition: transform 2s;
+    -webkit-transform:rotate(-10deg);
+    transform:rotate(-10deg);
+}
+
+.vertical-line-project {
+
+    animation: 1s ease-out 0s 1 slideInFromTop-project;
+
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    height: 105px;
+    width: 1px;
+    border-left: 1px solid black; 
+}
+
+.main-menu-hobby {
+    text-align: center;
+    position: absolute;
+    right: 27%;
+    //transform: translate(-10%, -10%);
+    color: white;
+    //text-shadow: 2px 2px #ff0000;
+}
+
+#hobby {
+    animation: 1s ease-out 0s 1 slideInFromTop-hobby;
+
+    background-color: black;
+    color: white;
+    padding: 5px;
+    letter-spacing: 5px;
+    -webkit-transition: -webkit-transform 2s;    
+    transition: transform 2s;
+    -webkit-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+
+.vertical-line-hobby {
+
+    animation: 1s ease-out 0s 1 slideInFromTop-hobby;
+
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    height: 105px;
+    width: 1px;
+    border-left: 1px solid black; 
+}
+
+
+
+.main-menu-gallery {
+    text-align: center;
+    position: absolute;
+    right: 17%;
+    //transform: translate(-10%, -10%);
+    color: white;
+    //text-shadow: 2px 2px #ff0000;
+}
+
+#gallery {
+    animation: 1s ease-out 0s 1 slideInFromTop-gallery;
+
+    background-color: black;
+    color: white;
+    padding: 5px;
+    letter-spacing: 5px;
+    -webkit-transition: -webkit-transform 2s;    
+    transition: transform 2s;
+    -webkit-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+
+.vertical-line-gallery {
+
+    animation: 1s ease-out 0s 1 slideInFromTop-gallery;
+
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    height: 105px;
+    width: 1px;
+    border-left: 1px solid black; 
+}
+
+@keyframes slideInFromTop-name {
+  0% {
+    transform: translateY(-300px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromTop-about-me {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromTop-project {
+  0% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromTop-hobby {
+  0% {
+    transform: translateY(-700px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromTop-gallery {
+  0% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
