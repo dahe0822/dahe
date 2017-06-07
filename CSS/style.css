@@ -7,6 +7,8 @@ body, html {
 
 /* The hero image */
 .main-image {
+        font-family: "Pacifico";
+
     /* The image used */
    // background-color: wheat;
     background: linear-gradient( to bottom, lightpink, powderblue );
@@ -28,7 +30,7 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-shadow: 2px 2px grey;
+    text-shadow: 2px 2px salmon;
     
 }
 
@@ -36,11 +38,10 @@ body, html {
 #name{
         animation: 2s ease-out 0s 1 slideInFromTop-name;
 
-    font: 8em "Indie Flower";
+    font-size: 4em;
     background-color: black;
     color: white;
-    padding: 8px;
-    font-size: 4em;
+    padding: 15px;
     letter-spacing: 15px;
  //   opacity: 0.65;
   }
@@ -54,14 +55,15 @@ body, html {
     position: relative;
     bottom: 0;
     left: 50%;
-    height: 300px;
+    height: 360px;
     width: 1px;
     border-left: 1px solid black; 
 }
 
 
 .main-menu {
-    font: 1.4em "Indie Flower";
+    font-size: 1.4em;
+    font-family: "Bubbler One";
 }
 
 
@@ -128,7 +130,7 @@ body, html {
     position: relative;
     bottom: 0;
     left: 50%;
-    height: 105px;
+    height: 80px;
     width: 1px;
     border-left: 1px solid black; 
 }
@@ -151,8 +153,8 @@ body, html {
     letter-spacing: 5px;
     -webkit-transition: -webkit-transform 2s;    
     transition: transform 2s;
-    -webkit-transform:rotate(5deg);
-    transform:rotate(5deg);
+    -webkit-transform:rotate(-10deg);
+    transform:rotate(-10deg);
 }
 
 .vertical-line-hobby {
@@ -162,7 +164,7 @@ body, html {
     position: relative;
     bottom: 0;
     left: 50%;
-    height: 105px;
+    height: 120px;
     width: 1px;
     border-left: 1px solid black; 
 }
@@ -187,8 +189,8 @@ body, html {
     letter-spacing: 5px;
     -webkit-transition: -webkit-transform 2s;    
     transition: transform 2s;
-    -webkit-transform:rotate(5deg);
-    transform:rotate(5deg);
+    -webkit-transform:rotate(10deg);
+    transform:rotate(10deg);
 }
 
 .vertical-line-gallery {
@@ -196,12 +198,27 @@ body, html {
     animation: 1s ease-out 0s 1 slideInFromTop-gallery;
 
     position: relative;
-    bottom: 0;
+    top: 0;
     left: 50%;
-    height: 105px;
+    height: 70px;
     width: 1px;
     border-left: 1px solid black; 
 }
+
+
+
+
+#teddy {
+    animation: 3s ease-out 0s 1 slideInFromTop-name;
+    position: relative;
+    left: 13%;
+    bottom: 0;
+
+}
+#teddy img {
+    width: 150px;
+}
+
 
 @keyframes slideInFromTop-name {
   0% {
