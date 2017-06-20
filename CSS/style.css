@@ -26,7 +26,7 @@ body, html {
 .main-text {
     text-align: center;
     position: absolute;
-    top: 40%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -37,13 +37,16 @@ body, html {
 
 #name{
         animation: 2s ease-out 0s 1 slideInFromTop-name;
-
+    
     font-size: 4em;
     background-color: black;
     color: white;
     padding: 15px;
     letter-spacing: 15px;
  //   opacity: 0.65;
+    
+    -webkit-transform:rotate(10deg);
+    transform:rotate(10deg);
   }
 
 
@@ -54,11 +57,10 @@ body, html {
 
 }
 .vertical-line-name {
+    position: relative;
     animation: 2s ease-out 0s 1 slideInFromTop-name;
-    
-    position: absolute;
-    bottom: 0;
-    height: 700px;
+    left: 50%;
+    height: 400px;
     width: 1px;
     border-left: 1px solid black; 
 }
@@ -212,14 +214,77 @@ body, html {
 
 
 #teddy {
-    animation: 3s ease-out 0s 1 slideInFromTop-name;
+    animation: 2s ease-out 0s 1 slideInFromTop-name;
     position: relative;
-    left: 13%;
+    left: 33%;
     bottom: 0;
+    
+    -webkit-transform:translateY(9px);
+    transform: translateY(9px)
 
 }
 #teddy img {
-    width: 150px;
+    width: 120px;
+}
+
+
+
+#rabbit {
+    animation: 1s ease-out 0s 1 slideInFromTop-about-me;
+    position: relative;
+    left: 33%;
+    bottom: 0;
+    
+    -webkit-transform:translateY(8px);
+    transform: translateY(8px)
+
+}
+#rabbit img {
+    width: 80px;
+}
+
+
+
+#jack {
+    animation: 1s ease-out 0s 1 slideInFromTop-hobby;
+    position: relative;
+    right: 33%;
+    bottom: 0;
+    
+    -webkit-transform:translateY(6px);
+    transform: translateY(6px)
+
+}
+#jack img {
+
+}
+
+#heart1 {
+    animation: 1s ease-out 0s 1 slideInFromTop-gallery;
+    position: relative;
+    left: 33%;
+    bottom: 0;
+    
+    -webkit-transform:translateY(6px);
+    transform: translateY(6px)
+
+}
+#heart1 img {
+
+}
+
+#heart2 {
+    animation: 1s ease-out 0s 1 slideInFromTop-project;
+    position: relative;
+    right: 33%;
+    bottom: 0;
+    
+    -webkit-transform:translateY(6px);
+    transform: translateY(6px)
+
+}
+#heart2 img {
+
 }
 
 
@@ -254,7 +319,7 @@ body, html {
 
 @keyframes slideInFromTop-hobby {
   0% {
-    transform: translateY(-700px);
+    transform: translateY(-200px);
   }
   100% {
     transform: translateY(0);
