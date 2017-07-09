@@ -64,7 +64,7 @@ body, html {
     transform: translate(-50%, -50%);
     color: white;
     //text-shadow: 2px 2px grey;
-    
+    height: auto;
     
 }
 
@@ -482,20 +482,71 @@ body, html {
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #name{
         animation: 2s ease-out 0s 1 slideInFromTop-name;
     
     font-size: 2em;
     background-color: lightgoldenrodyellow;
     color: black;
-    padding: 15px;
-    letter-spacing: 15px;
+    padding: 10px;
+    letter-spacing: 10px;
  //   opacity: 0.65;
     
     -webkit-transform:rotate(10deg);
     transform:rotate(10deg);
   }
+    
+    #rabbit img {
+        display: none;
+    }
+    
+    #jack img {
+        display: none;
+    }
+
+    #teddy img {
+        width: 80px;
+    }
+    
+    .main-text {
+    font-family: "LuckiestGuy";
+
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    //text-shadow: 2px 2px grey;
+    
+    
+    }
+    .main-menu {
+    font-size: 1em;
+    font-family: "ComingSoon";
+    }
+    
+    .main-menu-gallery {
+    text-align: center;
+    position: absolute;
+    right: 12%;
+    //transform: translate(-10%, -10%);
+    color: white;
+    //text-shadow: 2px 2px #ff0000;
+    }
+    .main-menu-about-me {
+    text-align: center;
+    position: absolute;
+    left: 6%;
+    //transform: translate(-10%, -10%);
+    color: white;
+    //text-shadow: 2px 2px #ff0000;
+}
+    #star1 {
+    display: none;
+
+    }
 }
 
 
