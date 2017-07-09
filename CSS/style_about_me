@@ -1,0 +1,23 @@
+
+body, html {
+    height: 100%;
+}
+
+.main-image {
+
+    /* The image used */
+   // background-color: wheat;
+    background: linear-gradient( to bottom, #790DA1 1%, #471477 40% , #6DA28B 100%);
+    /* Set a specific height */
+    height: 100%;
+    background-image: url(../img/header1.jpg);
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //opacity: 0.75;
+    
+    //border-color: black;
+    //border:20px solid black;
+    //border-radius: 100px;
+}

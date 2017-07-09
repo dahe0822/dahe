@@ -1,0 +1,88 @@
+@font-face { 
+font-family: ComingSoon;
+src: url(../font/ComingSoon.eot);
+src: url(../font/ComingSoon.ttf); 
+}
+
+@font-face { 
+font-family: MaidenOrange;
+src: url(../font/MaidenOrange.eot);
+src: url(../font/MaidenOrange.ttf); 
+}
+
+@font-face { 
+font-family: WalterTurncoat;
+src: url(../font/WalterTurncoat.eot);
+src: url(../font/WalterTurncoat.ttf); 
+}
+
+body, html {
+    
+}
+
+.main-image {
+/*    position: fixed;*/
+    background: linear-gradient( to bottom, #790DA1 1%, #471477 40% , #6DA28B 100%);
+    height: 100%;
+    width: 100%;
+    background:  url(../img/header3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; -o-background-size: cover; background-size: cover;    
+
+}
+
+.body-text {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    font-family: WalterTurncoat;
+    line-height: 60px;
+    
+}
+
+
+header {
+    color: white;
+    font-size: 3em;
+    font-family: MaidenOrange;
+    text-align: center;
+    margin: 100px;
+}
+
+table {
+    text-align: center;
+    
+}
+
+.me-text {
+font-size: 1.2em;
+    color: white;
+    font-family: ComingSoon;
+    line-height: 60px;  
+    text-align: center;
+}
+
+#me{
+    display: block;
+    vertical-align: middle;
+    
+    //border: 1px solid white;
+
+
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+
+hr.star-light {
+    border-color: #fff;
+}
+
