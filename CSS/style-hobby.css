@@ -32,6 +32,16 @@ src: url(../font/MaidenOrange.ttf);
 /*    width: 600px;*/
     border: 2px solid black;
 }
+.nav.ui-widget-header,.nav.ui-widget-header a,.nav_2.ui-widget-header,.nav_2.ui-widget-header a{
+    font-family: ComingSoon;
+    color: black;
+}
+.nav.ui-widget-header p,.nav_2.ui-widget-header p{
+    line-height: 100px;
+    height: 100px;
+    
+ font-family:LuckiestGuy;    
+}
 
 @media (max-width: 800px) {
    .horizontal-img{
